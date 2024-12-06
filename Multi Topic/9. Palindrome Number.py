@@ -1,0 +1,7 @@
+def isPalindrome(self, x: int) -> bool:
+    s = str(x)
+
+    if s == s[::-1]:
+        return True
+    else:
+        return False
